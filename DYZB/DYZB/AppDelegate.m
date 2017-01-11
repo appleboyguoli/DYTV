@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+#ifdef DEBUG
+#include <FLEXManager.h>
+#endif
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[UITabBar appearance] setTintColor:[UIColor orangeColor]];
+#ifdef DEBUG
+    [[FLEXManager sharedManager] toggleExplorer];
+#endif
     return YES;
 }
 

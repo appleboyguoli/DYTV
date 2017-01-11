@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		18C5140D1E260B1E006F8D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5140C1E260B1E006F8D34 /* main.m */; };
 		18C514101E260B1E006F8D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5140F1E260B1E006F8D34 /* AppDelegate.m */; };
-		18C514131E260B1E006F8D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C514121E260B1E006F8D34 /* ViewController.m */; };
 		18C514161E260B1E006F8D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C514141E260B1E006F8D34 /* Main.storyboard */; };
 		18C514181E260B1E006F8D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C514171E260B1E006F8D34 /* Assets.xcassets */; };
+		B83917736B385E81A7D9ED48 /* libPods-DYZB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF646BB7FF2973E3AC825121 /* libPods-DYZB.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +19,12 @@
 		18C5140C1E260B1E006F8D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C5140E1E260B1E006F8D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C5140F1E260B1E006F8D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18C514111E260B1E006F8D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18C514121E260B1E006F8D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18C514151E260B1E006F8D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C514171E260B1E006F8D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C5141C1E260B1E006F8D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFA538E7CE5A8AC3FA6A6AF /* Pods-DYZB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYZB/Pods-DYZB.release.xcconfig"; sourceTree = "<group>"; };
+		F09FE894FBFBECD23B910BAA /* Pods-DYZB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYZB/Pods-DYZB.debug.xcconfig"; sourceTree = "<group>"; };
+		FF646BB7FF2973E3AC825121 /* libPods-DYZB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYZB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +32,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83917736B385E81A7D9ED48 /* libPods-DYZB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186B4F1D1E26210C00B4C0DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F1E1E26210C00B4C0DF /* Follow(关注) */,
+				186B4F1F1E26210C00B4C0DF /* Home(首页) */,
+				186B4F201E26210C00B4C0DF /* Live(直播) */,
+				186B4F211E26210C00B4C0DF /* Main(主要) */,
+				186B4F221E26210C00B4C0DF /* Profile(我的) */,
+				186B4F231E26210C00B4C0DF /* Tools(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		186B4F1E1E26210C00B4C0DF /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Follow(关注)";
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		186B4F1F1E26210C00B4C0DF /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		186B4F201E26210C00B4C0DF /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Live(直播)";
+			path = Live;
+			sourceTree = "<group>";
+		};
+		186B4F211E26210C00B4C0DF /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Main(主要)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		186B4F221E26210C00B4C0DF /* Profile(我的) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Profile(我的)";
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		186B4F231E26210C00B4C0DF /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tools(工具)";
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		18C513FF1E260B1E006F8D34 = {
 			isa = PBXGroup;
 			children = (
 				18C5140A1E260B1E006F8D34 /* DYZB */,
 				18C514091E260B1E006F8D34 /* Products */,
+				809F46F45139E58B44275E7A /* Pods */,
+				56040938147B067F4CE1CF40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +123,7 @@
 			children = (
 				18C5140E1E260B1E006F8D34 /* AppDelegate.h */,
 				18C5140F1E260B1E006F8D34 /* AppDelegate.m */,
-				18C514111E260B1E006F8D34 /* ViewController.h */,
-				18C514121E260B1E006F8D34 /* ViewController.m */,
+				186B4F1D1E26210C00B4C0DF /* Classes */,
 				18C514141E260B1E006F8D34 /* Main.storyboard */,
 				18C514171E260B1E006F8D34 /* Assets.xcassets */,
 				18C5141C1E260B1E006F8D34 /* Info.plist */,
@@ -76,6 +140,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		56040938147B067F4CE1CF40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF646BB7FF2973E3AC825121 /* libPods-DYZB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		809F46F45139E58B44275E7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F09FE894FBFBECD23B910BAA /* Pods-DYZB.debug.xcconfig */,
+				2FFA538E7CE5A8AC3FA6A6AF /* Pods-DYZB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C5141F1E260B1E006F8D34 /* Build configuration list for PBXNativeTarget "DYZB" */;
 			buildPhases = (
+				2FB588B153CB1D57305AB6BB /* [CP] Check Pods Manifest.lock */,
 				18C514041E260B1E006F8D34 /* Sources */,
 				18C514051E260B1E006F8D34 /* Frameworks */,
 				18C514061E260B1E006F8D34 /* Resources */,
+				0293020F8B57C97BC6FA6879 /* [CP] Embed Pods Frameworks */,
+				732519ECDA5C6A2D00547818 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,12 +226,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0293020F8B57C97BC6FA6879 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYZB/Pods-DYZB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FB588B153CB1D57305AB6BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		732519ECDA5C6A2D00547818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYZB/Pods-DYZB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18C514041E260B1E006F8D34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C514131E260B1E006F8D34 /* ViewController.m in Sources */,
 				18C514101E260B1E006F8D34 /* AppDelegate.m in Sources */,
 				18C5140D1E260B1E006F8D34 /* main.m in Sources */,
 			);
@@ -257,6 +388,7 @@
 		};
 		18C514201E260B1E006F8D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09FE894FBFBECD23B910BAA /* Pods-DYZB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -271,6 +403,7 @@
 		};
 		18C514211E260B1E006F8D34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFA538E7CE5A8AC3FA6A6AF /* Pods-DYZB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
