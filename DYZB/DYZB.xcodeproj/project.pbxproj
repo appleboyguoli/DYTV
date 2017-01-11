@@ -12,7 +12,6 @@
 		18C514131E260B1E006F8D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C514121E260B1E006F8D34 /* ViewController.m */; };
 		18C514161E260B1E006F8D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C514141E260B1E006F8D34 /* Main.storyboard */; };
 		18C514181E260B1E006F8D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C514171E260B1E006F8D34 /* Assets.xcassets */; };
-		18C5141B1E260B1E006F8D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C514191E260B1E006F8D34 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		18C514121E260B1E006F8D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18C514151E260B1E006F8D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C514171E260B1E006F8D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18C5141A1E260B1E006F8D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C5141C1E260B1E006F8D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 				18C514121E260B1E006F8D34 /* ViewController.m */,
 				18C514141E260B1E006F8D34 /* Main.storyboard */,
 				18C514171E260B1E006F8D34 /* Assets.xcassets */,
-				18C514191E260B1E006F8D34 /* LaunchScreen.storyboard */,
 				18C5141C1E260B1E006F8D34 /* Info.plist */,
 				18C5140B1E260B1E006F8D34 /* Supporting Files */,
 			);
@@ -138,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C5141B1E260B1E006F8D34 /* LaunchScreen.storyboard in Resources */,
 				18C514181E260B1E006F8D34 /* Assets.xcassets in Resources */,
 				18C514161E260B1E006F8D34 /* Main.storyboard in Resources */,
 			);
@@ -166,14 +162,6 @@
 				18C514151E260B1E006F8D34 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18C514191E260B1E006F8D34 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18C5141A1E260B1E006F8D34 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,8 +259,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CT4B4CB6GL;
 				INFOPLIST_FILE = DYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.YiYuanDuoBao.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,8 +273,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CT4B4CB6GL;
 				INFOPLIST_FILE = DYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.YiYuanDuoBao.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +302,7 @@
 				18C514211E260B1E006F8D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
