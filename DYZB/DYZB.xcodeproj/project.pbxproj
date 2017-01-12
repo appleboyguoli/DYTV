@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186B4F281E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F271E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m */; };
+		186B4F2B1E271BDB00B4C0DF /* DYZBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F2A1E271BDB00B4C0DF /* DYZBHomeViewController.m */; };
 		18C5140D1E260B1E006F8D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5140C1E260B1E006F8D34 /* main.m */; };
 		18C514101E260B1E006F8D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5140F1E260B1E006F8D34 /* AppDelegate.m */; };
 		18C514161E260B1E006F8D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C514141E260B1E006F8D34 /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186B4F261E2712AA00B4C0DF /* UIBarButtonItem+DYZB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DYZB.h"; sourceTree = "<group>"; };
+		186B4F271E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DYZB.m"; sourceTree = "<group>"; };
+		186B4F291E271BDB00B4C0DF /* DYZBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBHomeViewController.h; sourceTree = "<group>"; };
+		186B4F2A1E271BDB00B4C0DF /* DYZBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBHomeViewController.m; sourceTree = "<group>"; };
 		18C514081E260B1E006F8D34 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5140C1E260B1E006F8D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C5140E1E260B1E006F8D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +69,8 @@
 		186B4F1F1E26210C00B4C0DF /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				186B4F291E271BDB00B4C0DF /* DYZBHomeViewController.h */,
+				186B4F2A1E271BDB00B4C0DF /* DYZBHomeViewController.m */,
 			);
 			name = "Home(首页)";
 			path = Home;
@@ -95,9 +103,19 @@
 		186B4F231E26210C00B4C0DF /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				186B4F241E27104300B4C0DF /* category */,
 			);
 			name = "Tools(工具)";
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		186B4F241E27104300B4C0DF /* category */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F261E2712AA00B4C0DF /* UIBarButtonItem+DYZB.h */,
+				186B4F271E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 		18C513FF1E260B1E006F8D34 = {
@@ -279,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186B4F2B1E271BDB00B4C0DF /* DYZBHomeViewController.m in Sources */,
+				186B4F281E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m in Sources */,
 				18C514101E260B1E006F8D34 /* AppDelegate.m in Sources */,
 				18C5140D1E260B1E006F8D34 /* main.m in Sources */,
 			);
