@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+target "DYZB" do
+pod 'Masonry', '~> 1.0.1'
+pod 'FLEX', '~> 2.0', :configurations => ['Debug']
+end

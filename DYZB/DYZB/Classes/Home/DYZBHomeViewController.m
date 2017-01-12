@@ -23,7 +23,7 @@
 #pragma mark ---------------配置导航栏-----------------------
 - (void)setupNavigationBar
 {
-
+    
 }
 
 - (void)setupNavigationLeftBar
