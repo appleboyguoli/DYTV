@@ -14,11 +14,15 @@
 {
 
     UIButton *itemBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    if (target && action) {
+        [itemBtn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    }
     if (imageName) {
         [itemBtn setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     }
     if (highImageName) {
-        [itemBtn setImage:[UIImage imageNamed:highImageName] forState:UIControlStateSelected];
+        [itemBtn setImage:[UIImage imageNamed:highImageName] forState:UIControlStateHighlighted];
     }
     if (size.height == 0 && size.height == 0 ) {
         [itemBtn sizeToFit];
@@ -30,4 +34,5 @@
     
     return [self initWithCustomView:itemBtn];
 }
+
 @end

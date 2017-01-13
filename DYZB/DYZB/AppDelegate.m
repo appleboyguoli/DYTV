@@ -21,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[UITabBar appearance] setTintColor:[UIColor orangeColor]];
-#ifdef DEBUG
+#if 0
     [[FLEXManager sharedManager] toggleExplorer];
 #endif
     return YES;
